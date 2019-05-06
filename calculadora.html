@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="calcstyle.css" />
+    <script src="calc_script.js"></script>
+</head>
+
+<body>
+    <div class=calcbody>
+        <div class="calcAreaBtn">
+            <label>
+                <input type="text" id="visor">
+            </label>
+        </div>
+        <div class="calcAreaBtn">
+            <button onclick="inputNum('7')" id="btn7">7</button>
+            <button onclick="inputNum('8')" id="btn8">8</button>
+            <button onclick="inputNum('9')" id="btn9">9</button>
+            <button onclick="inputOp('+')" id="btnMais">+</button>
+        </div>
+        <div class="calcAreaBtn">
+            <button onclick="inputNum('4')" id="btn4">4</button>
+            <button onclick="inputNum('5')" id="btn5">5</button>
+            <button onclick="inputNum('6')" id="btn6">6</button>
+            <button onclick="inputOp('-')" id="btnMenos">-</button>
+        </div>
+        <div class="calcAreaBtn">
+            <button onclick="inputNum('1')" id="btn1">1</button>
+            <button onclick="inputNum('2')" id="btn2">2</button>
+            <button onclick="inputNum('3')" id="btn3">3</button>
+            <button onclick="inputOp('*')" id="btnMult">*</button>
+        </div>
+        <div class="calcAreaBtn">
+            <button onclick="limpar()" id="btnLimpar">C</button>
+            <button onclick="inputNum('0')" id="btn0">0</button>
+            <button onclick="inputPtn('.')" id="btnPonto">.</button>
+            <button onclick="inputOp('/')"id="btn">/</button>
+        </div>
+        <div class="calcAreaBtn">
+            <button onclick = "resulOp('0')" id="btnIgual">=</button>
+        </div>
+    </div>
+        
+</body>
+
+</html>

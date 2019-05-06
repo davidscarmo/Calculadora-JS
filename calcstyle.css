@@ -1,0 +1,32 @@
+.calcbody {
+    border: 2px solid black;
+    max-width: 202px;
+    margin: 0 auto;
+    padding: 5px;
+    background: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+.calcAreaBtn{
+    padding: 0px;
+    margin: 0px;
+}
+
+.calcAreaBtn button {
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+    border-radius: 5%;
+}
+
+.calcAreaBtn input{
+    min-width:192px ;
+    margin: 2px 3px 5px 3px;
+    height: 50px;
+    border: 1px solid white;
+}
+
+#btnIgual{
+    min-width:196px ;
+    margin: 5px 3px 0 3px;
+}
